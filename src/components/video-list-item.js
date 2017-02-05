@@ -8,7 +8,8 @@ const VideoListItem = ({video, onVideoSelect}) => {
   return (
     <div 
       onClick={() => onVideoSelect(video)}
-      className="card horizontal hoverable">
+      className="card horizontal hoverable"
+    >
       <div className="card-image">
         <img src={imageUrl} />
       </div>
