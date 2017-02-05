@@ -1,0 +1,37 @@
+.video-list .card .card-content {
+  padding: 5px 15px;
+}
+
+h6 {
+  margin: .5rem 0 .2rem 0;
+  font-weight: 500;
+}
+
+.video-list .card .card-content p {
+  margin-top: -22px;
+  font-size: 0.8rem;
+}
+
+.video-list .card {
+  cursor: pointer;
+}
+
+.video-list .card:hover h6 {
+  color: darkblue;
+}
+
+input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #CC181E;
+  box-shadow: 0 1px 0 0 #CC181E;
+}
+
+.video-detail {
+  margin-top: 8px;
+  min-height: 60vh;
+}
+
+.preloader-wrapper {
+  position: relative;
+  top: 45%;
+  left: 45%;
+}
